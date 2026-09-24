@@ -5,6 +5,13 @@ for the **RayNeo X3 Pro** smart glasses — chosen specifically for how well
 they map to the glasses' temple-pad controls (one discrete step per swipe,
 tap to act, no pointer chasing), all from one menu:
 
+## Screenshots
+
+<p>
+  <img src="images/title.png" width="45%" alt="X3BrainGames menu with Sudoku, 2048 and Minesweeper">
+  <img src="images/sudoku.png" width="45%" alt="Sudoku board mid-game with timer and cell cursor">
+</p>
+
 - **SUDOKU** — 9×9, freshly generated every game with a uniqueness-checked
   digger (~36 givens). Swipe moves the cell cursor, tap opens a number
   picker, live conflict highlighting in red, solve timer with best time.
