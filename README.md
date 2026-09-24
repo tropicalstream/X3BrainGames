@@ -1,9 +1,6 @@
-# X3BrainGames 🧠🥽
+# X3BrainGames
 
-Three of the world's most-played pick-up-and-go brain games, rebuilt native
-for the **RayNeo X3 Pro** smart glasses — chosen specifically for how well
-they map to the glasses' temple-pad controls (one discrete step per swipe,
-tap to act, no pointer chasing), all from one menu:
+X3BrainGames brings three of the world's most-played pick-up-and-go puzzles — Sudoku, 2048, and Minesweeper — natively to the RayNeo X3 Pro AR glasses, chosen specifically for how cleanly they map onto a temple-pad interface: every move is a single discrete swipe or tap, with no pointer to chase. Sudoku generates a fresh, uniqueness-checked 9×9 board each game with live conflict highlighting and a timer; 2048 plays as the familiar four-directional swipe game with merge sounds that climb in pitch with tile value; Minesweeper offers a 12×9 board with a guaranteed-safe first click. Every single move is autosaved to disk, so an accidental exit, a launcher kill, or a dead battery never costs progress — each game resumes exactly where it left off, timers included.
 
 ## Screenshots
 
@@ -12,33 +9,17 @@ tap to act, no pointer chasing), all from one menu:
   <img src="images/sudoku.png" width="45%" alt="Sudoku board mid-game with timer and cell cursor">
 </p>
 
-- **SUDOKU** — 9×9, freshly generated every game with a uniqueness-checked
-  digger (~36 givens). Swipe moves the cell cursor, tap opens a number
-  picker, live conflict highlighting in red, solve timer with best time.
-- **2048** — the swipe-native classic: four swipes are the whole game.
-  Merge sounds climb in pitch with the tile value. Score + best.
-- **MINESWEEPER** — 12×9, 14 mines, first-click always safe, flood reveal.
-  Tap reveals, double-tap flags, classic colored counts, clear timer.
+## Controls
 
-**Every move autosaves.** The complete board state is written after each
-swipe, placement, reveal and flag — an accidental exit (temple bump,
-launcher kill, dead battery) loses nothing. The menu shows a ▶ CONTINUE
-badge wherever a game is waiting, and even the Sudoku clock picks up where
-it stopped.
+- Swipe — step (move cursor / shift tiles)
+- Tap — act (place, reveal, open picker)
+- Double-tap — secondary action (flag / cancel picker)
+- Triple-tap — back to the menu
 
-Controls everywhere: **swipe** step · **tap** act · **double-tap** the
-game's secondary (flag / cancel picker) · **triple-tap** back to the menu.
+## Download
 
-## Real sounds
+[X3BrainGames.apk](X3BrainGames.apk)
 
-The ticks, placements, error buzz, mine boom, flag click and win chime are
-real public-domain / CC recordings from Wikimedia Commons, trimmed and
-repitched live — see `SOUND_CREDITS.md`.
+## Credits
 
-## Build
-
-Zero dependencies, Canvas 2D, side-by-side stereo autodetected on RayNeo.
-
-```
-./gradlew assembleDebug
-```
+Game sounds are real recordings from Wikimedia Commons, trimmed and repitched; see [SOUND_CREDITS.md](SOUND_CREDITS.md) for full attribution.
